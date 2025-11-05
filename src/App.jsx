@@ -16,7 +16,7 @@ export default function App() {
   />
 
   {/* Soft Saffron Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-b from-[#ffedd5]/85 to-[#fff8f0]/90 -z-5"></div>
+        { /*<div className="absolute inset-0 bg-gradient-to-b from-[#ffedd5]/85 to-[#fff8f0]/90 -z-5"></div>*/}
 
   {/* Title */}
   <h1
