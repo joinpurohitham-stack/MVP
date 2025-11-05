@@ -28,7 +28,7 @@ export default function App() {
 
   {/* Subtitle */}
   <p
-    className="text-xl italic mb-8 max-w-2xl mx-auto"
+    className="text-xl italic mb-8 max-w-2xl mx-auto text-white"
     style={{ fontFamily: "Inter, sans-serif" }}
   >
     Book trusted purohits for every ritual — anytime, anywhere.
