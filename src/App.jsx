@@ -41,7 +41,11 @@ export default function App() {
 
 </section>
 
-
+<div className="relative overflow-hidden bg-[#a35200] py-3 mt-4">
+  <div className="animate-marquee whitespace-nowrap text-white text-lg font-medium tracking-wide">
+    Cheapest and Best-in-Class Poojas • Starting from ₹500 • Authentic Vedic Purohits • Trusted & Verified •
+  </div>
+</div>
 
       {/* About Section */}
       <section className="py-16 max-w-5xl mx-auto text-center">
