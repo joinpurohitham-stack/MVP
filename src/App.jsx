@@ -6,17 +6,18 @@ export default function App() {
       {/* Hero Section */}
       <section className="relative text-center py-24 overflow-hidden">
 
-  {/* Background Video */}
+  {/* Background Video (Visible) */}
   <video
     className="absolute inset-0 w-full h-full object-cover -z-10"
     src="https://media.istockphoto.com/id/1476165718/video/hindu-temple-during-navratri-festival.mp4?s=mp4-640x640-is&k=20&c=BOj4-znlbhbbGkfOPYHcqGTi4lrYXgNi35iol6Kfhdk="
     autoPlay
     loop
     muted
+    playsInline
   />
 
-  {/* Soft Saffron Overlay */}
-        { /*<div className="absolute inset-0 bg-gradient-to-b from-[#ffedd5]/85 to-[#fff8f0]/90 -z-5"></div>*/}
+  {/* Optional very light fade so text stays readable */}
+  <div className="absolute inset-0 bg-gradient-to-b from-[#fff8f0]/10 to-[#fff8f0]/20 -z-0"></div>
 
   {/* Title */}
   <h1
@@ -43,6 +44,7 @@ export default function App() {
   </a>
 
 </section>
+
 
 
       {/* About Section */}
