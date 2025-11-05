@@ -15,9 +15,6 @@ export default function App() {
     playsInline
   />
 
-  {/* Optional very light fade so text stays readable */}
-  <div className="absolute inset-0 bg-gradient-to-b from-[#fff8f0]/10 to-[#fff8f0]/20 -z-0"></div>
-
   {/* Title */}
   <h1
     className="text-6xl font-bold text-[#a35200] mb-4 tracking-wide"
