@@ -4,15 +4,46 @@ export default function App() {
   return (
     <div className="bg-[#fff8f0] text-[#3b2f2f] font-serif min-h-screen">
       {/* Hero Section */}
-      <section className="text-center py-24 bg-gradient-to-b from-[#ffedd5] to-[#fff8f0]">
-        <h1 className="text-6xl font-bold text-[#a35200] mb-4 tracking-wide" style={{fontFamily: 'Playfair Display, serif'}}>
-          Puरोhitham
-        </h1>
-        <p className="text-xl italic mb-8 max-w-2xl mx-auto" style={{fontFamily: 'Inter, sans-serif'}}>
-          Book trusted purohits for every ritual — anytime, anywhere.
-        </p>
-        <a href="#booking" className="inline-block bg-[#a35200] text-white text-lg px-8 py-3 rounded-full shadow-lg hover:bg-[#8b3e00] transition">Book a Purohit Now</a>
-      </section>
+      <section className="relative text-center py-24 overflow-hidden">
+
+  {/* Background Video */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover -z-10"
+    src="https://media.istockphoto.com/id/1476165718/video/hindu-temple-during-navratri-festival.mp4?s=mp4-640x640-is&k=20&c=BOj4-znlbhbbGkfOPYHcqGTi4lrYXgNi35iol6Kfhdk="
+    autoPlay
+    loop
+    muted
+  />
+
+  {/* Soft Saffron Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-b from-[#ffedd5]/85 to-[#fff8f0]/90 -z-5"></div>
+
+  {/* Title */}
+  <h1
+    className="text-6xl font-bold text-[#a35200] mb-4 tracking-wide"
+    style={{ fontFamily: "Playfair Display, serif" }}
+  >
+    Pu<span style={{ fontFamily: "'Tiro Devanagari Sanskrit', serif" }}>रो</span>hitham
+  </h1>
+
+  {/* Subtitle */}
+  <p
+    className="text-xl italic mb-8 max-w-2xl mx-auto"
+    style={{ fontFamily: "Inter, sans-serif" }}
+  >
+    Book trusted purohits for every ritual — anytime, anywhere.
+  </p>
+
+  {/* Button */}
+  <a
+    href="#booking"
+    className="inline-block bg-[#a35200] text-white text-lg px-8 py-3 rounded-full shadow-lg hover:bg-[#8b3e00] transition"
+  >
+    Book a Purohit Now
+  </a>
+
+</section>
+
 
       {/* About Section */}
       <section className="py-16 max-w-5xl mx-auto text-center">
