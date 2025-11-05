@@ -107,7 +107,7 @@ export default function App() {
         <p className="mb-2 font-semibold text-lg">Contact Us</p>
         <p>Email: joinpurohitham@gmail.com</p>
         <p>WhatsApp: +91 8217780955</p>
-        <p className="mt-4 text-sm italic">© 2025 🄿🅄रो🄷🄸🅃🄷🄰🄼. All rights reserved.</p>
+        <p className="mt-4 text-sm italic">© 2025 पुरोहितम्. All rights reserved.</p>
       </footer>
     </div>
   );
