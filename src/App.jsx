@@ -1,8 +1,7 @@
 import React from "react";
 
 export default function App() {
-  return (
-    <div {/*className="bg-[#fff8f0] text-[#3b2f2f] font-serif min-h-screen">
+  return ( <div>
       {/* Hero Section */}
       <section className="relative text-center py-24 overflow-hidden">
 
