@@ -6,7 +6,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="text-center py-24 bg-gradient-to-b from-[#ffedd5] to-[#fff8f0]">
         <h1 className="text-6xl font-bold text-[#a35200] mb-4 tracking-wide" style={{fontFamily: 'Playfair Display, serif'}}>
-          Purohitham
+          Puरोhitham
         </h1>
         <p className="text-xl italic mb-8 max-w-2xl mx-auto" style={{fontFamily: 'Inter, sans-serif'}}>
           Book trusted purohits for every ritual — anytime, anywhere.
