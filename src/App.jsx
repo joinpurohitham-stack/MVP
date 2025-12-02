@@ -8,7 +8,7 @@ export default function App() {
   {/* Background Video (Visible) */}
   <video
     className="absolute inset-0 w-full h-full object-cover -z-10"
-    src="https://media.istockphoto.com/id/1476165718/video/hindu-temple-during-navratri-festival.mp4?s=mp4-640x640-is&k=20&c=BOj4-znlbhbbGkfOPYHcqGTi4lrYXgNi35iol6Kfhdk="
+    src="https://media.istockphoto.com/id/1489756282/video/priests-hand-turns-page-of-sacred-religious-indian-book-during-wedding-ceremony.mp4?s=mp4-640x640-is&k=20&c=W6MD5OQ3loQy4U6fqJeUNpc4YpM1VS-0nPyNBgCaIuw="
     autoPlay
     loop
     muted
